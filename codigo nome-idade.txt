@@ -9,13 +9,21 @@ programa {
  escreva ("qual ano você nasceu:\n")
  leia (ano)
  
- escreva ("o ano em que você está: \n")
+ escreva ("o ano em que você está:\n")
  leia (anoatual)
 //calculo para ter a resposta
  idade = anoatual - ano
 //resultado final
  escreva (idade)
 
+ se (idade > 18 e idade < 60) {
+escreva ("\nentão você é maior de idade")
 
+ }
+
+senao se(idade < 18){
+escreva ("\nentão você é menor de idade")
+}senao
+escreva ("\nIdoso")
   }
 }
