@@ -1,0 +1,21 @@
+programa {
+  funcao inicio() {
+    //informações a serem pedidas
+ cadeia nome
+ inteiro ano, idade, anoatual
+ //lacunas para preenchimento
+ escreva ("insira seu nome:\n")
+ leia (nome)
+ escreva ("qual ano você nasceu:\n")
+ leia (ano)
+ 
+ escreva ("o ano em que você está: \n")
+ leia (anoatual)
+//calculo para ter a resposta
+ idade = anoatual - ano
+//resultado final
+ escreva (idade)
+
+
+  }
+}
